@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dice Roll</string>
+    <string name="roll">Roll</string>
+    <string name="D4">D4</string>
+    <string name="number_of_rolls">Advantage?</string>
+    <string name="d6">D6</string>
+    <string name="d8">D8</string>
+    <string name="d10">D10</string>
+    <string name="d12">D12</string>
+    <string name="d20">D20</string>
+</resources>
