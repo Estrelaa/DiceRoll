@@ -5,12 +5,19 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.SeekBar
 import android.widget.TextView
+import androidx.appcompat.app.ActionBar
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
+
+    lateinit var toolbar: ActionBar
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        toolbar = supportActionBar!!
+        var bottomNavigation: BottomNavigationView = findViewById(R.id.navigationView)
 
         val rollButton = findViewById<Button>(R.id.RollButton)
         val resultTextView = findViewById<TextView>(R.id.ResultsTextView)
