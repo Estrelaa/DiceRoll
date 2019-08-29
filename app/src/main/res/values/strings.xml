@@ -8,4 +8,5 @@
     <string name="d10">D10</string>
     <string name="d12">D12</string>
     <string name="d20">D20</string>
+    <string name="title_activity_select_race">SelectRaceActivity</string>
 </resources>

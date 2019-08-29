@@ -9,4 +9,8 @@
             android:id="@+id/navigation_NameGenerator"
             android:title="Name Generator"/>
 
+    <item
+            android:id="@+id/navigation_Name"
+            android:title="Name"/>
+
 </menu>
